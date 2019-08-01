@@ -1,0 +1,14 @@
+# yml文件等效于application.properties
+server:
+  port:80
+  servlet:
+    context-path: /chapter02
+    tomcat:
+      uri-encoding: utf-8
+my:
+  name: 江南一点雨
+  address:China
+  favorities:
+    - 足球
+    - 徒步
+    - Coding
