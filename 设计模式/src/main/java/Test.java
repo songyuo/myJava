@@ -1,8 +1,12 @@
+import java.util.ArrayList;
+import java.util.Collection;
+
 public class Test {
     public static void main(String[] args) {
-        String a = "Hello";
-        System.out.println("" + (a instanceof Object));
+        Collection c = new ArrayList();
+        c.add("孙悟空");
+        c.add(6);
+        System.out.println(c.size());
+
     }
-
-
 }

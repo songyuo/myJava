@@ -9,9 +9,10 @@
 
 /*
  * 软件开发的不变真理：change
- * 两条设计原则：
+ * 三条设计原则：
  * ①找出应用中可能变化之处，把它们独立出来，不要和不需要变化的代码混在一起
  * ②针对接口编程，而不是针对实现编程
+ * ③多用组合，少用继承
  */
 public class Chapter_1 {
 
@@ -90,11 +91,13 @@ public class Chapter_1 {
         }
 
         public static void main(String[] args) {
+            //  测试代码
             Duck duck = new MallardDuck();
             duck.performFly();
             duck.performQuack();
         }
     }
+
 
     public static void main(String[] args) {
         // 尝试动态改变鸭子的行为
@@ -103,6 +106,8 @@ public class Chapter_1 {
 
         duck.performQuack();
         duck.performFly();
+
+        System.out.println("变身中.....");
 
         duck.setFlyBehavior(new FlyWithWings());
         duck.setQuackBehavior(new MuteQuack());

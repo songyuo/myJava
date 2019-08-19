@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e3229d9-985c-4439-a954-56b073f05a5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/设计模式.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Chapter_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Chapter_1$Duck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Chapter_1$FlyBehavior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Chapter_1$FlyNoWay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Chapter_1$FlyWithWings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Chapter_1$MallardDuck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Chapter_1$MuteQuack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Chapter_1$Quack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Chapter_1$QuackBehavior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Chapter_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Chapter_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Chapter_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/设计模式.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +55,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -63,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Chapter_1">
+  <component name="RunManager" selected="Application.Chapter_2$WeatherStation">
     <configuration name="Chapter_1$MallardDuck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter_1$MallardDuck" />
       <module name="设计模式" />
@@ -73,6 +82,13 @@
     </configuration>
     <configuration name="Chapter_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter_1" />
+      <module name="设计模式" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chapter_2$WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter_2$WeatherStation" />
       <module name="设计模式" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,9 +107,11 @@
       <item itemvalue="Application.Chapter_1$MallardDuck" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Chapter_1" />
+      <item itemvalue="Application.Chapter_2$WeatherStation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Chapter_2$WeatherStation" />
         <item itemvalue="Application.Chapter_1" />
         <item itemvalue="Application.Chapter_1$MallardDuck" />
         <item itemvalue="Application.Test" />
@@ -114,8 +132,17 @@
       <workItem from="1564819678197" duration="278000" />
       <workItem from="1564819998743" duration="162000" />
       <workItem from="1564820228213" duration="39000" />
-      <workItem from="1564820286878" duration="7945000" />
+      <workItem from="1564820286878" duration="11551000" />
+      <workItem from="1566200123627" duration="6958000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1564841924537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564841924537</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,10 +153,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
